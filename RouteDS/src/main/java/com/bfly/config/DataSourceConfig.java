@@ -16,8 +16,9 @@ public class DataSourceConfig {
  
  public DataSourceConfig() {
 	 System.out.println("---------------------------------------------------------------");
-	 System.out.println("---------------------------DataSourceConfig--------------------");
+	 System.out.println("---------------------------2. DataSourceConfig--------------------");
 	 System.out.println("---------------------------------------------------------------");
+	 ConfigMonitor.instance.auditStep("2. DataSourceConfig");
 }
 
  @Bean(name = { "dataSource", "dataSource1" })

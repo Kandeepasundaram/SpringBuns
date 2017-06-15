@@ -17,8 +17,9 @@ public class MultitenancyProperties {
 
 	public MultitenancyProperties() {
 		System.out.println("---------------------------------------------------------------");
-		System.out.println("------------------------MultitenancyProperties-----------------");
+		System.out.println("------------------------3. MultitenancyProperties-----------------");
 		System.out.println("---------------------------------------------------------------");
+		ConfigMonitor.instance.auditStep("3. MultitenancyProperties");
 	}
 
 	public DataSourceProperties getDatasource1() {

@@ -21,8 +21,9 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	
 	public WebMvcConfig() {
 		System.out.println("---------------------------------------------------------------");
-		System.out.println("--------------------------WebMvcConfig-------------------------");
+		System.out.println("--------------------------7. WebMvcConfig-------------------------");
 		System.out.println("---------------------------------------------------------------");
+		ConfigMonitor.instance.auditStep("7. WebMvcConfig");
 	}
 	
 	@Bean

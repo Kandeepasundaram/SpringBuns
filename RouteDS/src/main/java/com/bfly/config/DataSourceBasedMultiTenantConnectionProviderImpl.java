@@ -26,8 +26,9 @@ public class DataSourceBasedMultiTenantConnectionProviderImpl extends AbstractDa
  
  public DataSourceBasedMultiTenantConnectionProviderImpl() {
 	 System.out.println("---------------------------------------------------------------");
-	 System.out.println("-------DataSourceBasedMultiTenantConnectionProviderImpl--------");
+	 System.out.println("-------4. DataSourceBasedMultiTenantConnectionProviderImpl--------");
 	 System.out.println("---------------------------------------------------------------");
+	 ConfigMonitor.instance.auditStep("4. DataSourceBasedMultiTenantConnectionProviderImpl");
 }
 
  @PostConstruct

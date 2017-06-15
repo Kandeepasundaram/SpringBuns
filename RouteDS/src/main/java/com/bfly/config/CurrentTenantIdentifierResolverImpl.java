@@ -12,8 +12,9 @@ public class CurrentTenantIdentifierResolverImpl implements CurrentTenantIdentif
  
  public CurrentTenantIdentifierResolverImpl() {
 System.out.println("---------------------------------------------------------------");
-System.out.println("---------------CurrentTenantIdentifierResolverImpl-------------");
+System.out.println("---------------5. CurrentTenantIdentifierResolverImpl-------------");
 System.out.println("---------------------------------------------------------------");
+ConfigMonitor.instance.auditStep("5. CurrentTenantIdentifierResolverImpl");
 }
 
  @Override

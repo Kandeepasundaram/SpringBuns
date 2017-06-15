@@ -12,8 +12,9 @@ public class MultiTenancyInterceptor extends HandlerInterceptorAdapter {
 
 	public MultiTenancyInterceptor() {
 		System.out.println("---------------------------------------------------------------");
-		System.out.println("-----------------------MultiTenancyInterceptor-----------------");
+		System.out.println("-----------------------6. MultiTenancyInterceptor-----------------");
 		System.out.println("---------------------------------------------------------------");
+		ConfigMonitor.instance.auditStep("6. MultiTenancyInterceptor");
 	}
 
 	@Override

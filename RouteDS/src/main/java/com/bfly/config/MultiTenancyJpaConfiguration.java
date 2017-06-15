@@ -37,8 +37,9 @@ public class MultiTenancyJpaConfiguration {
 
 	public MultiTenancyJpaConfiguration() {
 		System.out.println("---------------------------------------------------------------");
-		System.out.println("---------------------MultiTenancyJpaConfiguration--------------");
+		System.out.println("---------------------1. MultiTenancyJpaConfiguration--------------");
 		System.out.println("---------------------------------------------------------------");
+		ConfigMonitor.instance.auditStep("1. MultiTenancyJpaConfiguration");
 	}
 
 	@Bean
